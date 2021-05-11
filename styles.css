@@ -1,0 +1,18 @@
+body {background-image: linear-gradient(rgba(100%, 100%, 80%, 0.9),rgba(100%, 100%, 100%, 0.9));} /* színátmenetes hátteret határozz meg, ami középen más színű, mint a szélén*/
+
+	#next {position: fixed;right:0;top:0;background-color:blue;color:white;text-decoration:none;
+	padding:10px 10px; /* a szöveg és a doboz széle közötti távolságot állította. */
+	margin:10px 10px; /* a doboz és margó közötti távolságot állította. */
+	border-radius:6px; /*sarok kerekítés*/
+	} 
+	a {text-decoration: none; background:rgba(80%, 80%, 60%, 0.5); border-radius:6px; }
+	#next:hover {background-color:white;color:black;} /* ha az egeret felé viszem változtatja a színt */
+	
+	p {text-indent: 2.5em;width:90%;background-color:rgba(90%, 90%, 100%, 0.9);}
+	
+	table, th, td {border:1px solid black;}
+	
+	.velemeny {border:1px solid black;}
+	
+
+/* #logo {position: absolute;left:0;top:0} */
